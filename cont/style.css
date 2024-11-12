@@ -1,0 +1,105 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Oswald:wght@300&family=Ubuntu&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+
+
+}
+
+
+/* Styling the body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cf19cf;
+    padding: 15px 20px;
+}
+
+/* Navbar logo */
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fdc50e;
+}
+
+
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+
+
+.form2{
+
+    display: flex;
+    flex-direction: column ;
+    gap: 15px;
+}
+
+textarea{
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    border-color: rgb(206, 204, 204);
+    
+    
+}
+
+textarea:hover{
+    border-color: #7a177a;
+}
+textarea::placeholder{
+    color: rgb(223, 223, 221);
+    font-size: large;
+    font-weight: 400;
+    
+
+}
+
+.btn6{
+    border-radius: 8px;
+    height: 45px;
+    border-style:none;
+    color: #861186;
+    font-weight: 500;
+   
+
+}
+.btn7{
+    border-radius: 8px;
+    height: 45px;
+    border-color: #cf19cf;
+    background-color: #7a177a;
+    color: white;
+    border-style:none;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
