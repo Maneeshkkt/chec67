@@ -1,4 +1,3 @@
- 
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Oswald:wght@300&family=Ubuntu&display=swap');
 
 
@@ -26,8 +25,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #744399;
+    background-color: #713d92;
     padding: 15px 20px;
+    height: 55px;
+    
 }
 
 /* Navbar logo */
@@ -35,7 +36,18 @@ body {
     font-size: 22px;
     font-weight: bold;
     color: #744399;
+ 
+    
 }
+
+.logo img{
+  
+    height: 61px;
+    width: 400px;
+
+
+}
+
 
 
 .mainbox{
@@ -112,6 +124,9 @@ textarea::placeholder{
 a{
     color: rgb(86, 164, 253);
 }
+
+
+
 
 
 
