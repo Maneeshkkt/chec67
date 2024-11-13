@@ -1,4 +1,5 @@
  
+
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Oswald:wght@300&family=Ubuntu&display=swap');
 
 
@@ -28,7 +29,7 @@ body {
     align-items: center;
     background-color: #713d92;
     padding: 15px 20px;
-    height: 44px;
+    height: 48px;
     
 }
 
@@ -37,6 +38,9 @@ body {
     font-size: 22px;
     font-weight: bold;
     color: #744399;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  
     
 }
@@ -44,7 +48,7 @@ body {
 .logo img{
   
     height: 48px;
-    width: 380px;
+    width: 350px;
 
 
 }
@@ -125,6 +129,12 @@ textarea::placeholder{
 a{
     color: rgb(67, 148, 241);
 }
+
+
+
+
+
+
 
 
 
